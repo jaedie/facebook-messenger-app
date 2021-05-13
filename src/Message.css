@@ -24,6 +24,7 @@ p {
 }
 
 .message__userCard {
+  color: white;
   background-color: rgba(247, 31, 103, 0.397);
   font-size: 15px;
   padding: 10px;

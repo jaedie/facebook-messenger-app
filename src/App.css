@@ -42,7 +42,7 @@
 }
 
 .chat__container {
-  width: 40vw;
+  width: 35vw;
   height: 70vh;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .inputbox {
-  width: 107%;
+  width: 106%;
   display: flex;
   padding: 10px 0;
   margin-top: 20px;
