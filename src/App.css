@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +39,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.chat__container {
+  width: 25vw;
+  height: 70vh;
+}
+
+.chatbox {
+  width: 100%;
+  height: inherit;
+  padding: 10px;
+  margin-top: 50px;
+  border: rgba(0, 0, 0, 0.26) solid 1px;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.inputbox {
+  width: 107%;
+  display: flex;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.input {
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  border-bottom: rgba(0, 0, 0, 0.26) solid 1px;
+  margin: 3.2px;
+  outline: none;
+}
+
+.input:focus {
+  border-bottom: #1f5ebd solid 2px;
 }

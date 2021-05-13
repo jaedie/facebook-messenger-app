@@ -1,0 +1,36 @@
+p {
+  margin: 0;
+}
+
+.message__userContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.message__guestContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.message__guestCard {
+  background-color: rgba(247, 31, 103, 0.397);
+  font-size: 15px;
+  padding: 10px;
+  width: fit-content;
+  max-width: 70%;
+  border-radius: 4px;
+  margin: 5px 5px 10px;
+}
+
+.message__userCard {
+  color: white;
+  background-color: #1f5ebd;
+  font-size: 15px;
+  padding: 10px;
+  width: fit-content;
+  max-width: 70%;
+  text-align: left;
+  border-radius: 4px;
+  margin: 5px 5px 10px;
+  word-wrap: break-word;
+}
