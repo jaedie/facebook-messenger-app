@@ -72,7 +72,7 @@ function App() {
             endIcon={<Icon>send</Icon>}
             size="big"
           >
-            보내기
+            send
           </Button>
         </form>
       </section>
