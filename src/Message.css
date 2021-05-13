@@ -13,7 +13,8 @@ p {
 }
 
 .message__guestCard {
-  background-color: rgba(247, 31, 103, 0.397);
+  color: white;
+  background-color: #1f5ebd;
   font-size: 15px;
   padding: 10px;
   width: fit-content;
@@ -23,8 +24,7 @@ p {
 }
 
 .message__userCard {
-  color: white;
-  background-color: #1f5ebd;
+  background-color: rgba(247, 31, 103, 0.397);
   font-size: 15px;
   padding: 10px;
   width: fit-content;

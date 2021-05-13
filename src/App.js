@@ -57,7 +57,6 @@ function App() {
         </div>
         <form className="inputbox">
           <input
-            placeholder="적어봐랑"
             className="input"
             value={input}
             onChange={(e) => setInput(e.target.value)}
