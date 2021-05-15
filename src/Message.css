@@ -21,6 +21,7 @@ p {
   max-width: 70%;
   border-radius: 4px;
   margin: 5px 5px 10px;
+  text-align: left;
 }
 
 .message__userCard {
@@ -30,8 +31,8 @@ p {
   padding: 10px;
   width: fit-content;
   max-width: 70%;
-  text-align: left;
   border-radius: 4px;
   margin: 5px 5px 10px;
   word-wrap: break-word;
+  text-align: left;
 }

@@ -29,7 +29,7 @@ function Message({ username, message }) {
         ref={messageRef}
       >
         <p className={isUser ? "message__userCard" : "message__guestCard"}>
-          {isUser ? message.text : `${message.username}: ${message.text}`}
+          {isUser ? message.text : `${message.username}♥️: ${message.text}`}
         </p>
       </div>
     </animated.div>
